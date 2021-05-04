@@ -7,4 +7,6 @@ function MACROS(){
 	
 	//converts degrees (0-360) into a number (0-3)
 	#macro CARDINAL_DIR round(direction/90)
+	
+	#macro ROOM_START rmVillage
 }

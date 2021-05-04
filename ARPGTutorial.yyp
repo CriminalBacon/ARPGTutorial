@@ -2,16 +2,21 @@
   "resources": [
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
+    {"id":{"name":"rmVillage","path":"rooms/rmVillage/rmVillage.yy",},"order":1,},
+    {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},"order":2,},
+    {"id":{"name":"sprTiles","path":"sprites/sprTiles/sprTiles.yy",},"order":4,},
     {"id":{"name":"playerStateRoll","path":"scripts/playerStateRoll/playerStateRoll.yy",},"order":3,},
+    {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":1,},
     {"id":{"name":"playerStateFree","path":"scripts/playerStateFree/playerStateFree.yy",},"order":4,},
     {"id":{"name":"sprPlayerRoll","path":"sprites/sprPlayerRoll/sprPlayerRoll.yy",},"order":3,},
     {"id":{"name":"playerCollision","path":"scripts/playerCollision/playerCollision.yy",},"order":2,},
+    {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":1,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprPlayerRun","path":"sprites/sprPlayerRun/sprPlayerRun.yy",},"order":1,},
     {"id":{"name":"playerAnimateSprite","path":"scripts/playerAnimateSprite/playerAnimateSprite.yy",},"order":0,},
     {"id":{"name":"sprCol","path":"sprites/sprCol/sprCol.yy",},"order":2,},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rmParent","path":"rooms/rmParent/rmParent.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -25,7 +30,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
+    {"roomId":{"name":"rmParent","path":"rooms/rmParent/rmParent.yy",},},
+    {"roomId":{"name":"rmVillage","path":"rooms/rmVillage/rmVillage.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
