@@ -13,6 +13,8 @@
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":1,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprPlayerRun","path":"sprites/sprPlayerRun/sprPlayerRun.yy",},"order":1,},
+    {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":0,},
+    {"id":{"name":"screenShake","path":"scripts/screenShake/screenShake.yy",},"order":5,},
     {"id":{"name":"playerAnimateSprite","path":"scripts/playerAnimateSprite/playerAnimateSprite.yy",},"order":0,},
     {"id":{"name":"sprCol","path":"sprites/sprCol/sprCol.yy",},"order":2,},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
@@ -49,6 +51,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Managers.yy","order":3,"resourceVersion":"1.0","name":"Managers","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
