@@ -16,7 +16,21 @@ if (keyboard_check_pressed(vk_space))
 	if (textProgress >= _messageLength)
 	{
 		instance_destroy();
-	} else
+		
+		//check to see if there are more text box queued
+		if (instance_exists(objTextQueued))
+		{
+			with(objTextQueued) ticket--;
+
+		}
+		else
+		{
+			//after last textQueued instance, reset state
+			with(objPlayer) state = lastState;
+		
+		}
+	} 
+	else
 	{
 		//display whole message after 2nd frame
 		if (textProgress > 2)

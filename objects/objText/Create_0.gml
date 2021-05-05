@@ -17,7 +17,3 @@ lerpProgress = 0;
 //the number of characters shown in message
 textProgress = 0;
 
-textMessage = "Default message text";
-
-//which background to use for the text box
-background = 0;
