@@ -15,3 +15,6 @@ inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
 // when paused, does not execute state machine
 if(!global.gamePaused) script_execute(state);
+
+//depth sort player
+depth = -bbox_bottom;
