@@ -26,7 +26,8 @@ function playerStateRoll(){
 	
 	if(_collided)
 	{
-		state = playerStateFree;
+		state = playerStateBonk;
+		moveDistanceRemaining = distanceBonk;
 		screenShake(2, 30);
 	}
 	
