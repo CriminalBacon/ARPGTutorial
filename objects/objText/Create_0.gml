@@ -17,3 +17,6 @@ lerpProgress = 0;
 //the number of characters shown in message
 textProgress = 0;
 
+responseSelected = 0;
+
+

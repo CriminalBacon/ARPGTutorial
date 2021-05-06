@@ -23,6 +23,7 @@
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":0,},
     {"id":{"name":"screenShake","path":"scripts/screenShake/screenShake.yy",},"order":5,},
     {"id":{"name":"playerAnimateSprite","path":"scripts/playerAnimateSprite/playerAnimateSprite.yy",},"order":0,},
+    {"id":{"name":"dialogResponses","path":"scripts/dialogResponses/dialogResponses.yy",},"order":10,},
     {"id":{"name":"objQuestNPC","path":"objects/objQuestNPC/objQuestNPC.yy",},"order":8,},
     {"id":{"name":"sprCol","path":"sprites/sprCol/sprCol.yy",},"order":2,},
     {"id":{"name":"sprQuesty","path":"sprites/sprQuesty/sprQuesty.yy",},"order":7,},
