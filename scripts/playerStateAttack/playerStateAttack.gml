@@ -1,4 +1,4 @@
-/// @description
+/// @description 
 /// @function
 /// @param
 function playerStateAttack(){

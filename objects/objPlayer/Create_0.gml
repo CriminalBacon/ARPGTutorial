@@ -3,6 +3,10 @@
 // refers to script, so can be called at a later time
 state = playerStateFree;
 stateAttack = attackSlash;
+
+//contains a ds_list of entities hit by attack
+hitByAttack = -1;
+
 lastState = state;
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
