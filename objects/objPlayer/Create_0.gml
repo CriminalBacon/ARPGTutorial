@@ -2,6 +2,7 @@
 
 // refers to script, so can be called at a later time
 state = playerStateFree;
+stateAttack = attackSlash;
 lastState = state;
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));

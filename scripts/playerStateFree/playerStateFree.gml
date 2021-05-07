@@ -25,9 +25,15 @@ function playerStateFree(){
 	//Update image index
 	playerAnimateSprite();
 	
+	//Activate attack logic
+	if (keyAttack)
+	{
+		state = playerStateAttack;
+		stateAttack = attackSlash;
+	}
+	
 
-
-//Activate key logic
+	//Activate key logic
 	if(keyActivate)
 	{
 		// 1. Check for entity to activate

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player State Machine",
-    "path": "folders/Scripts/Player State Machine.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "playerStateRoll",
+  "name": "attackSlash",
   "tags": [],
   "resourceType": "GMScript",
 }
