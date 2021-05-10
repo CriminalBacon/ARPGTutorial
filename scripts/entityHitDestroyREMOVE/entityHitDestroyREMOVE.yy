@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player General",
-    "path": "folders/Scripts/Player General.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "playerAnimateSprite",
+  "name": "entityHitDestroyREMOVE",
   "tags": [],
   "resourceType": "GMScript",
 }

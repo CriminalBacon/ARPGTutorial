@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSignpost",
-    "path": "sprites/sprSignpost/sprSignpost.yy",
+    "name": "sprPlant",
+    "path": "sprites/sprPlant/sprPlant.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,14 +27,14 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"entityShadow","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityHitScript","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"entityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityHitScript","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"entityHitDestory","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",
     "path": "folders/Objects/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSignpost",
+  "name": "objPlantREMOVE",
   "tags": [],
   "resourceType": "GMObject",
 }
