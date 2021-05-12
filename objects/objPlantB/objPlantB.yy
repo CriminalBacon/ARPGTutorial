@@ -28,6 +28,8 @@
   "overriddenProperties": [
     {"propertyId":{"name":"entityShadow","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityHitScript","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"entityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityFragmentCount","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityFragment","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"objFragPlant","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",

@@ -26,8 +26,9 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"entityShadow","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityHitScript","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"entityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityCollision","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityShadow","path":"objects/parEntity/parEntity.yy",},"objectId":{"name":"parEntity","path":"objects/parEntity/parEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",
