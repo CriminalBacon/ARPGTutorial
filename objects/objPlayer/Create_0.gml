@@ -30,3 +30,13 @@ spriteRoll = sprPlayerRoll;
 //Animation Frame index relative to direction
 localFrame = 0;
 
+//Room Transitions
+if (global.targetX != -1)
+{
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+	
+
+}
+
