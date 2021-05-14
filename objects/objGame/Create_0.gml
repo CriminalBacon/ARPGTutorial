@@ -8,6 +8,8 @@ global.targetRoom = -1;
 global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
+//instance variable of item that is lifted
+global.iLifted = noone;
 
 //initializes camera, can be any coords
 global.iCamera = instance_create_layer(0,0, layer, objCamera);

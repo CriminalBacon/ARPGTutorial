@@ -17,4 +17,7 @@ function MACROS(){
 	#macro OUT 0
 	#macro IN 1
 	
+	//Lifting
+	#macro TOP_OF_HEAD 13
+	
 }

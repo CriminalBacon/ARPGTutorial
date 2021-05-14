@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Entity Hit",
-    "path": "folders/Scripts/Entity Hit.yy",
+    "name": "Player General",
+    "path": "folders/Scripts/Player General.yy",
   },
   "resourceVersion": "1.0",
-  "name": "entityHitDestroy",
+  "name": "playerThrow",
   "tags": [],
   "resourceType": "GMScript",
 }

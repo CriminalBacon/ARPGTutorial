@@ -22,6 +22,8 @@ distanceBonkHeight = 8;
 speedBonk = 1.5;
 z = 0;
 
+animationEndScript = -1;
+
 //Allows for flexibility in changing sprites
 spriteRun = sprPlayerRun;
 spriteIdle = sprPlayer;

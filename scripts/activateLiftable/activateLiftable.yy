@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Entity Hit",
-    "path": "folders/Scripts/Entity Hit.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "entityHitDestroy",
+  "name": "activateLiftable",
   "tags": [],
   "resourceType": "GMScript",
 }

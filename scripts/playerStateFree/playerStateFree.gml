@@ -37,7 +37,9 @@ function playerStateFree(){
 	if(keyActivate)
 	{
 		// 1. Check for entity to activate
-		// 2. If there is nothing or there is something but it has no script, then roll
+		// 2. If there is nothing or there is something but it has no script
+			//2a.  If we are carrying something, throw it
+			//2b.  Otherwise, roll!
 		// 3. otherwise, there is something and it has a script, Activate
 		// 4. if the thing we activate is an NPC, make it face towars us
 		
@@ -51,10 +53,16 @@ function playerStateFree(){
 		
 		if (activate == noone || activate.entityActivateScript = -1)
 		{
-			//2.		
-			state = playerStateRoll;
-			moveDistanceRemaining = distanceRoll;
+			//Throw something if held
+			if (global.iLifted != noone)
+			{
+				playerThrow();
 			
+			} else //Otherwise, roll!
+			{
+				state = playerStateRoll;
+				moveDistanceRemaining = distanceRoll;
+			}
 		}
 		else 
 		{

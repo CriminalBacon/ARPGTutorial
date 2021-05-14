@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Entity Hit",
+    "path": "folders/Scripts/Entity Hit.yy",
   },
   "resourceVersion": "1.0",
   "name": "entityHitSolid",

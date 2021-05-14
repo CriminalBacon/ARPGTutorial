@@ -15,6 +15,7 @@ function newTextBox(_message, _background, _responseArray){
 		if(instance_exists(other)) originInstance = other.id else originInstance = noone;
 		background = is_undefined(_background) ? 1 : _background;
 		
+		//check to see if responseArray is passed
 		if (!is_undefined(_responseArray))
 		{
 			//Trim markers from responses
