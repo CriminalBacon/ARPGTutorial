@@ -28,8 +28,12 @@ function playerStateFree(){
 	//Activate attack logic
 	if (keyAttack)
 	{
-		state = playerStateAttack;
-		stateAttack = attackSlash;
+		//can't attack if holding something
+		if (global.iLifted == noone)
+		{
+			state = playerStateAttack;
+			stateAttack = attackSlash;
+		}
 	}
 	
 
@@ -44,14 +48,41 @@ function playerStateFree(){
 		// 4. if the thing we activate is an NPC, make it face towars us
 		
 		//how far we would have to move 10 pixels in the direction we are facing
-		var _activateX = lengthdir_x(10, direction);
-		var _activateY = lengthdir_y(10, direction);
+		var _activateX = x + lengthdir_x(10, direction);
+		var _activateY = y + lengthdir_y(10, direction);
 		
 		// 1.
-		activate = instance_position(x+_activateX, y+_activateY, parEntity);
+		var _activateSize = 4;
+		var _activateList = ds_list_create();
 		
+		activate = noone;
+		var _entitesFound = collision_rectangle_list(
+			_activateX - _activateSize,
+			_activateY - _activateSize,
+			_activateX + _activateSize,
+			_activateY + _activateSize,
+			parEntity,
+			false,
+			true,
+			_activateList,
+			true
+		);
 		
-		if (activate == noone || activate.entityActivateScript = -1)
+		//if the first instance we find is either our lifted entity or it has no script, try the next one
+		while(_entitesFound > 0)
+		{
+			var _check = _activateList[| --_entitesFound]; 
+			if (_check != global.iLifted) && (_check.entityActivateScript != -1)
+			{
+				activate = _check;
+				break;
+			}
+			
+		}
+		
+		ds_list_destroy(_activateList);
+		
+		if (activate == noone)
 		{
 			//Throw something if held
 			if (global.iLifted != noone)
