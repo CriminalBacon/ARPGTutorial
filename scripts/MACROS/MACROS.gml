@@ -20,4 +20,15 @@ function MACROS(){
 	//Lifting
 	#macro TOP_OF_HEAD 13
 	
+	enum ENEMYSTATE
+	{
+		IDLE,
+		WANDER,
+		CHASE,
+		ATTACK,
+		HURT,
+		DIE,
+		WAIT
+	}
+	
 }
