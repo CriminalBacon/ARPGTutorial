@@ -49,4 +49,18 @@ function slimeWander(){
 			var _collided = enemyTileCollision();
 	
 		}
+		
+	//check for aggro
+	if(++aggroCheck >= aggroCheckDuration)
+	{
+		aggroCheck = 0;
+		if (instance_exists(objPlayer) && (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemyAggroRadius))
+		{
+			state = ENEMYSTATE.CHASE;
+			target = objPlayer;
+		
+		}
+	
+	
+	}
 }
