@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSlime",
-    "path": "sprites/sprSlime/sprSlime.yy",
+    "name": "sprBlueSlime",
+    "path": "sprites/sprBlueSlime/sprBlueSlime.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,19 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"enemyHP","path":"objects/parEnemy/parEnemy.yy",},"objectId":{"name":"parEnemy","path":"objects/parEnemy/parEnemy.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyHP","path":"objects/parEnemy/parEnemy.yy",},"objectId":{"name":"parEnemy","path":"objects/parEnemy/parEnemy.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
     "path": "folders/Objects/Entities/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objSlime",
+  "name": "objBlueSlime",
   "tags": [],
   "resourceType": "GMObject",
 }
